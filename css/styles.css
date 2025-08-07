@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -130,10 +132,54 @@ p{
   text-align: center;
 }
 
+#pricing p{
+  font-weight: bold;
+}
+
 .pricing-column{
   padding: 3% 2%;
 }
-
+/*
 .px-2{
-    color: #221f3b;
+  color: #221f3b;
+}*/
+
+.card-1{
+  background-color: #f4f4f4;
 }
+
+.card-1 .card-header{
+  background-color: #e5e4e4;
+}
+
+.card-2{
+  background-color: #f4f4f4;
+}
+
+.card-2 .card-header{
+  background-color: #e5e4e4;
+}
+
+.card-3{
+  background-color: #f4f4f4;
+}
+
+.card-3 .card-header{
+  background-color: #e5e4e4;
+}
+
+.card-body p{
+  font-weight: bolder;
+}
+
+.container p{
+  padding-top: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+#footer{
+  padding: 10px 0;
+  background-color: #221f3b;
+}
+
